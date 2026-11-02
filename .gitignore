@@ -1,0 +1,33 @@
+# macOS / local tooling
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+.pytest_cache/
+.idea/
+.vscode/
+
+# Local credentials, certificates, database dumps
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+*credentials*.json
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Prevent nested repository history
+.git/
+
+# Temporary outputs / archives
+backup/
+*.bak
+*.tmp
